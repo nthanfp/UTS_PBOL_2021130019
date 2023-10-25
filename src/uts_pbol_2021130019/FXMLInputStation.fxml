@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="280.0" prefWidth="536.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uts_pbol_2021130019.FXMLInputStationController">
+     <children>
+      <TextField fx:id="txtStation" layoutX="167.0" layoutY="126.0" prefHeight="25.0" prefWidth="325.0" />
+      <TextField fx:id="txtCity" layoutX="167.0" layoutY="173.0" prefHeight="25.0" prefWidth="325.0" />
+      <Label layoutX="45.0" layoutY="130.0" text="Station Name" />
+      <Label layoutX="45.0" layoutY="177.0" text="City" />
+      <Button layoutX="167.0" layoutY="220.0" mnemonicParsing="false" onAction="#saveAct" text="Save" />
+      <Button layoutX="224.0" layoutY="220.0" mnemonicParsing="false" onAction="#cancelAct" text="Cancel" />
+      <Button fx:id="btnExit" layoutX="294.0" layoutY="220.0" mnemonicParsing="false" onAction="#exitAct" text="Exit" />
+      <Label layoutX="208.0" layoutY="29.0" text="Input New Station">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtId" layoutX="167.0" layoutY="78.0" prefHeight="25.0" prefWidth="325.0" />
+      <Label layoutX="45.0" layoutY="82.0" text="ID Station" />
+   </children>
+</AnchorPane>

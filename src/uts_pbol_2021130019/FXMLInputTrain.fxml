@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="358.0" prefWidth="495.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="uts_pbol_2021130019.FXMLInputTrainController">
+    <children>
+      <TextField fx:id="txtTrainNumber" layoutX="146.0" layoutY="129.0" prefHeight="25.0" prefWidth="325.0" />
+      <TextField fx:id="txtTrainName" layoutX="146.0" layoutY="176.0" prefHeight="25.0" prefWidth="325.0" />
+      <Label layoutX="24.0" layoutY="133.0" text="Train Number" />
+      <Label layoutX="24.0" layoutY="180.0" text="Train Name" />
+      <Button layoutX="146.0" layoutY="310.0" mnemonicParsing="false" onAction="#saveAct" text="Save" />
+      <Button layoutX="203.0" layoutY="310.0" mnemonicParsing="false" onAction="#cancelAct" text="Cancel" />
+      <Button fx:id="btnExit" layoutX="273.0" layoutY="310.0" mnemonicParsing="false" onAction="#exitAct" text="Exit" />
+      <Label layoutX="187.0" layoutY="22.0" text="Input New Train">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtId" layoutX="146.0" layoutY="81.0" prefHeight="25.0" prefWidth="325.0" />
+      <Label layoutX="24.0" layoutY="85.0" text="Train ID" />
+      <Label layoutX="24.0" layoutY="223.0" text="Train Type" />
+      <TextField fx:id="txtTrainType" layoutX="146.0" layoutY="219.0" prefHeight="25.0" prefWidth="325.0" />
+      <TextField fx:id="txtCapacity" layoutX="146.0" layoutY="263.0" prefHeight="25.0" prefWidth="325.0" />
+      <Label layoutX="24.0" layoutY="267.0" text="Passenger Capacity " />
+   </children>
+</AnchorPane>
